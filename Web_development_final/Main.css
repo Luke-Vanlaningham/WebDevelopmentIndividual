@@ -1,0 +1,31 @@
+/* this page contains all the styling for the pages that aren't the home page*/
+#columns{
+display: grid;
+grid-template: 1fr/ 20% 80%;
+}
+
+#navbar{
+grid-row: 1;
+column-row: 1;
+background-color: black;
+}
+
+#content{
+grid-row: 1;
+column-row: 2;
+background-image: linear-gradient(150deg, green, purple);
+}
+
+a{
+color: blue;
+}
+li{
+font-size: 25px;
+}
+
+input{
+border-width: 1px;
+border-color: blue;
+border-radius: 25px;
+}
+
